@@ -1,0 +1,1 @@
+This example demonstrates a common subtle bug in Ruby related to directly accessing and modifying instance variables (@value) from outside the class definition. While functional, this violates the principles of encapsulation and can make code harder to maintain, debug, and reason about.  The solution shows a safer, more maintainable approach using accessor methods.
